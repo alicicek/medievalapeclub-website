@@ -7,12 +7,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-input {
+input[type=text], input[type=button] {
     border-radius: 0;
     -webkit-appearance: none;
+    -webkit-border-radius: 0;
     -moz-appearance: none;
     appearance: none;
-
 }
 
 body{
@@ -60,3 +60,9 @@ input[type=button] {
 input[type=button]:hover {
     background-color: #e7e7e7;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
