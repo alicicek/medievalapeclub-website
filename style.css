@@ -45,9 +45,14 @@ header p{
 }
 
 input[type=text] {
+    color: black;
     border: none;
     border-bottom: 1px solid black;
     margin-right: 10px;
+}
+
+input[type=text]:focus {
+    outline: none;
 }
 
 input[type=button] {
