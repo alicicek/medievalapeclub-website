@@ -5,7 +5,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    border-radius: 0;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
 }
 
 body{
