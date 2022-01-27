@@ -31,6 +31,7 @@ body{
 }
 
 header h1{
+    color: #161616;
     margin-bottom: 5px;
     font-weight: 700;
 }
@@ -40,17 +41,19 @@ header p{
     font-weight: 300;
 }
 .sign-up p{
+    color: #161616;
     margin-bottom: 20px;
     width: 700px;
 }
 
 input[type=text] {
-    color: black;
+    color: #161616;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #161616;;
     margin-right: 10px;
     padding: 4px 6px;
     padding: 8px;
+    font-size: 1em;
 }
 
 input[type=text]:focus {
@@ -58,14 +61,47 @@ input[type=text]:focus {
 }
 
 input[type=button] {
-    color: black;
+    font-size: 1em;
+    color: #161616;
     padding: 8px;
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid #161616;;
 }
 
 input[type=button]:hover {
     background-color: #e7e7e7;
+}
+
+.social-media{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    color: #161616;
+    font-size: 2.2em;
+    text-decoration: none;
+}
+
+.twitter-icon{
+    margin-right: 20px;
+}
+
+.discord-icon{
+    position: relative;
+}
+
+.social-info{
+    background-color: rgb(240, 240, 78);
+    font-size: 8px;
+    font-weight: 800;
+    padding: 3px;
+    border-radius: 100px;
+    width: 75px;
+    position: absolute;
+    top: -5px;
+    left: 15px;
 }
 
 @media only screen and (max-width: 730px) {
