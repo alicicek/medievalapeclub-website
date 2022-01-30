@@ -24,10 +24,8 @@ function DiscordOver(){
 
 function DiscordOut(){
     clearTimeout(timer);
-    timer = setTimeout(function() {
-        DiscordSocialText.style.display = "none"
-        DiscordSocialInfo.style.width = "1rem"
-      }, 200);
+    DiscordSocialText.style.display = "none"
+    DiscordSocialInfo.style.width = "1rem"
 
 }
 
@@ -43,6 +41,5 @@ function OpenseaOut(){
     clearTimeout(timer);
     OpenseaSociaText.style.display = "none"
     OpenseaSocialInfo.style.width = "1rem"
-
 }
 
