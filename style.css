@@ -65,7 +65,7 @@ input[type=button] {
     color: #161616;
     padding: 8px;
     background-color: white;
-    border: 2px solid #161616;;
+    border: 2px solid #161616;
 }
 
 input[type=button]:hover {
@@ -73,9 +73,10 @@ input[type=button]:hover {
 }
 
 .social-media{
+    /* width: fit-content; */
     margin-top: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .social-media a{
@@ -85,11 +86,26 @@ input[type=button]:hover {
 }
 
 .twitter-icon{
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .discord-icon{
     position: relative;
+    margin-right: 40px;
+}
+
+.opensea-icon{
+    position: relative;
+}
+
+.opensea{
+    width: 35px;
+    height: 35px;
+    background-image: url("/images/open-sea.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .social-info{
@@ -98,10 +114,20 @@ input[type=button]:hover {
     font-weight: 800;
     padding: 3px;
     border-radius: 100px;
-    width: 75px;
+    height: 1rem;
+    width: 1rem;
     position: absolute;
     top: -5px;
-    left: 15px;
+    left: 23px;
+    transition: ease-in 0.2s;
+    z-index: 10;
+}
+
+.social-info p{
+    display: none;
+    z-index: 10;
+    white-space: nowrap;
+    /* transition: ease-in 0.4s; */
 }
 
 @media only screen and (max-width: 730px) {
